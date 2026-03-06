@@ -4,7 +4,7 @@ import logging
 
 app = Flask(__name__)
 
-# Set up logging to a file 
+# Set up logging to a file
 formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
 
 file_handler = logging.FileHandler('app.log')
